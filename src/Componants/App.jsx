@@ -1,18 +1,23 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./Home";
-import Intro from "./Intro" ;
-//  import Menu from "./Menu" ;
-
+import Menu from "./Menu";
+import NavBar from "./NavBar";
+import About from "./About";
+import Contact from "./Contact" ;
 
 export default function App()
 {
     return <>
-    <Home/>
+    <NavBar/>
 
 
     <Routes>
-        <Route path="/" element={<Intro/>} />
-        {/* <Route path="/menu" element={<Menu/>} /> */}
+       <Route  path="/" element={<Home/>} />
+       <Route  path="/menu" element={<Menu/>} />
+       <Route  path="/about" element={<About/>} />
+       <Route  path="/contact" element={<Contact/>} />
+
+
     </Routes>
 
 

@@ -7,7 +7,7 @@ export default function NavBar()
    
        
    
-         <nav id="tm-nav" className="fixed w-full">
+         <nav id="tm-nav" className="fixed w-full" >
             <div className="tm-container mx-auto px-2 md:py-6 text-right">
                 <button className="md:hidden py-2 px-2" id="menu-toggle"><i className="fas fa-2x fa-bars tm-text-gold"></i></button>
                 <ul className="mb-3 md:mb-0 text-2xl font-normal flex justify-end flex-col md:flex-row">
